@@ -1,0 +1,19 @@
+{
+  "model": "amazon/chronos-2",
+  "input_channels": [
+    "V"
+  ],
+  "sequence_length": 1024,
+  "lora_preset": "all",
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "lr_back": 0.0001,
+  "lr_head": 0.001,
+  "epochs": 20,
+  "patience_adapt": 3,
+  "val_cells": 3,
+  "seeds": 3,
+  "batch": 8,
+  "label": "soh_rated",
+  "note": "Reference configuration; launch with CLI options described in docs/REPRODUCE.md."
+}

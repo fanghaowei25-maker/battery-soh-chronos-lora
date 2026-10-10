@@ -1,0 +1,2 @@
+arm,lr_back,runs,cells,official_mean,official_std,band0708_mean,cell_R2_median,val_mean
+lora,0.0001,60,20,3.9161,1.8522,7.2685,0.404,3.364

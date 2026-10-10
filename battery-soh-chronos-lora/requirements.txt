@@ -1,0 +1,9 @@
+# Dependency names from existing implementation; historical versions are not locked.
+# Install an appropriate CUDA build of torch for your GPU separately.
+torch
+chronos-forecasting
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
